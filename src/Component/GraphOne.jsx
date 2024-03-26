@@ -26,7 +26,7 @@ const GraphOne = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 p-3 ">
 
                 {/* first card */}
-                <div className=" p-3 rounded bg-white ">
+                <div className=" p-3 mt-6 rounded bg-white -translate-y-0 hover:-translate-y-4 hover:transition duration-300 delay-100 hover:shadow-xl ">
                     <div className="flex flex-col items-center  p-4">
                         <div className="flex w-full justify-between ">
                             <p className="font-semibold text-xs md:text-sm lg:text-base">Summary</p>
@@ -109,7 +109,7 @@ const GraphOne = () => {
                     </div>
                 </div>
                 {/* second card */}
-                <div className=" p-3 rounded bg-white">
+                <div className=" p-3 mt-6 rounded bg-white -translate-y-0 hover:-translate-y-4 hover:transition duration-300 delay-100 hover:shadow-xl ">
                     <div className="flex flex-col items-center  p-4">
                         <div className="flex w-full justify-between ">
                             <p className="font-semibold">Support & Resistance</p>
@@ -189,7 +189,7 @@ const GraphOne = () => {
                     </div>
                 </div>
                 {/* third card */}
-                <div className=" p-3 rounded bg-white">
+                <div className=" p-3 mt-6 rounded bg-white -translate-y-0 hover:-translate-y-4 hover:transition duration-300 delay-100 hover:shadow-xl ">
                     <div className="flex flex-col items-center  p-4">
                         <div className="flex w-full justify-between ">
                             <p className="font-semibold">Moving averages</p>
@@ -262,7 +262,7 @@ const GraphOne = () => {
                     </div>
                 </div>
                 {/* fourth card */}
-                <div className=" p-3 rounded bg-white">
+                <div className=" p-3 mt-6 rounded bg-white -translate-y-0 hover:-translate-y-4 hover:transition duration-300 delay-100 hover:shadow-xl ">
                     <div className="flex flex-col items-center  p-4">
                         <div className="flex w-full justify-between ">
                             <p className="font-semibold">Oscillators</p>
